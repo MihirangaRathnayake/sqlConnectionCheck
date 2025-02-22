@@ -85,8 +85,7 @@ namespace sqlConnectionCheck
                         MessageBox.Show(ex.Message);
                     }
 
-                    MessageBox.Show("Account Successfully Created!");
-
+                    MessageBox.Show("Account successfully created!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
                 connection.Close();
