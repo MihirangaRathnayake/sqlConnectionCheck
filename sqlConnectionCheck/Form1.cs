@@ -52,7 +52,7 @@ namespace sqlConnectionCheck
                     MyConn2.Close();
 
 
-                    MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Login Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                    
 
