@@ -54,7 +54,7 @@ namespace sqlConnectionCheck
 
                     MessageBox.Show("Login Successfull", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    MessageBox.Show("Login Successfull !!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                   
 
                     this.Hide();
                     homepage frm2 = new homepage();
