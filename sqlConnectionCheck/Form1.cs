@@ -27,7 +27,7 @@ namespace sqlConnectionCheck
         {
             if (string.IsNullOrEmpty(passwordTxt.Text) || string.IsNullOrEmpty(passwordTxt.Text))
             {
-                MessageBox.Show("Please input Username and Password", "Error");
+                MessageBox.Show("Please enter username and password! Try again.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             else
