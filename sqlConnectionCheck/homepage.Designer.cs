@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.logoutBtn = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // logoutBtn
@@ -43,20 +42,11 @@
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(389, 74);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
-            // 
             // homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 450);
-            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.logoutBtn);
             this.Name = "homepage";
             this.Text = "homepage";
@@ -67,6 +57,5 @@
         #endregion
 
         private System.Windows.Forms.Button logoutBtn;
-        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
