@@ -44,7 +44,7 @@ namespace sqlConnectionCheck
 
             if (string.IsNullOrEmpty(firstnameTxt.Text) || string.IsNullOrEmpty(lastnameTxt.Text) || string.IsNullOrEmpty(cboGender.Text) || string.IsNullOrEmpty(emailTxt.Text) || string.IsNullOrEmpty(usernameTxt.Text) || string.IsNullOrEmpty(passwordTxt.Text) || string.IsNullOrEmpty(confirmTxt.Text))
             {
-                MessageBox.Show("Please fill out all information!", "Error");
+                MessageBox.Show("Please fill out all information ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
