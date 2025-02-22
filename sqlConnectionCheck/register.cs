@@ -81,7 +81,6 @@ namespace sqlConnectionCheck
                     }
                     catch (Exception ex)
                     {
-                        // Show any error message.
                         MessageBox.Show(ex.Message);
                     }
 
