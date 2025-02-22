@@ -38,7 +38,7 @@ namespace sqlConnectionCheck
             }
             if (passwordTxt.Text != confirmTxt.Text)
             {
-                MessageBox.Show("Password doesn't match!", "Error");
+                    MessageBox.Show("Password doesn't match", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
